@@ -10,9 +10,9 @@ namespace CSHttpClientSample
     static class Program
     {
         // Add your Computer Vision subscription key and endpoint to your environment variables.
-        static string subscriptionKey = Environment.GetEnvironmentVariable("COMPUTER_VISION_SUBSCRIPTION_KEY");
+        static string subscriptionKey = Environment.GetEnvironmentVariable("19383ddff13245cfb89bf2f3c3ef78a9");
 
-        static string endpoint = Environment.GetEnvironmentVariable("COMPUTER_VISION_ENDPOINT");
+        static string endpoint = Environment.GetEnvironmentVariable("https://mborerecimage.cognitiveservices.azure.com/");
         
         // the Analyze method endpoint
         static string uriBase = endpoint + "vision/v3.1/analyze";
